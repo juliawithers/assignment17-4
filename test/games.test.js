@@ -3,10 +3,6 @@ const expect = require('chai').expect;
 const supertest = require('supertest');
 const app = require('../app')
 
-// supertest(app)
-//     .get('/apps')
-//     .expect(200,'Hello Express!')
-
 describe('app.js', ()=>{
     // sort by rating or app, if not provided, don't sort
     // passing
